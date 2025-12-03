@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Yarumal - 5 Salas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand fs-4" href="#inicio"> Cinema Yarumal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#cartelera">Cartelera</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#horarios">Horarios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#registro">Registro</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reserva">Reservar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="hero" id="inicio">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">Bienvenidos a Cinema Yarumal</h1>
+            <p class="fs-5">5 Salas | La mejor experiencia cinematográfica del municipio</p>
+            <a href="#cartelera" class="btn btn-danger btn-lg mt-3">Ver Cartelera</a>
+        </div>
+    </div>
+
+    <!--Cartelera -->
+    <section id="cartelera" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold"> Películas en Estreno y Cartelera</h2>
+            <div class="row g-4">
+                <!-- Película 1 -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="imagenes/depredador.jpg" class="card-img-top" alt="Depredador">
+                        <div class="card-body">
+                            <span class="badge badge-estreno mb-2"> ESTRENO</span>
+                            <h5 class="card-title">Depredador</h5>
+                            <a href="https://youtu.be/fOgPy9E3Jmg?si=VzanEMaUkL9a3gr-" target="_blank" class="btn btn-primary btn-sm">
+                                Ver Trailer
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Película 2 -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="imagenes/dracula.webp" class="card-img-top" alt="Película 2">
+                        <div class="card-body">
+                            <span class="badge badge-cartelera mb-2">EN CARTELERA</span>
+                            <h5 class="card-title">Drácula</h5>
+                            <a href="https://youtu.be/XyrfKP6R1J4?si=N5E_4Ej2FO5uPA6H" target="_blank" class="btn btn-primary btn-sm">
+                                 Ver Trailer
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Película 3 -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="imagenes/five ni 2.jpg" class="card-img-top" alt="five nigts at freddy's">
+                        <div class="card-body">
+                            <span class="badge badge-estreno mb-2"> ESTRENO</span>
+                            <h5 class="card-title">five nigts at freddy´s</h5>
+                            <a href="https://youtu.be/E8M-iJ0p-Xk?si=UUtfgt1asEBckYC7" target="_blank" class="btn btn-primary btn-sm">
+                                 Ver Trailer
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Película 4 -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="imagenes/hermanastra fea.jpg" class="card-img-top" alt="La hermanastra fea">
+                        <div class="card-body">
+                            <span class="badge badge-cartelera mb-2">EN CARTELERA</span>
+                            <h5 class="card-title">La hermanastra fea</h5>
+                            <a href="https://youtu.be/4YORt9yUkZ4?si=3Xe0MX7BAEkqf5ZZ" target="_blank" class="btn btn-primary btn-sm">
+                                 Ver Trailer
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Película 5 -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="imagenes/ilusionistas.webp" class="card-img-top" alt="Película 5">
+                        <div class="card-body">
+                            <span class="badge badge-cartelera mb-2"> EN CARTELERA</span>
+                             <h5 class="card-title">Los ilusionistas 3</h5>
+                            <a href="https://youtu.be/2dGUyKN1Zxk?si=pzVhyai-QWTtqPln" target="_blank" class="btn btn-primary btn-sm">
+                                 Ver Trailer
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Película 6 -->
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="imagenes/jujutsu.webp" class="card-img-top" alt="jujutsu kaisen">
+                        <div class="card-body">
+                            <span class="badge badge-estreno mb-2">ESTRENO</span>
+                            <h5 class="card-title">jujutsu kaisen</h5>
+                            <a href="https://youtu.be/fYL0ni7N4bw?si=84envDkEnB0ReiWi" target="_blank" class="btn btn-primary btn-sm">
+                                 Ver Trailer
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Horarios -->
+    <section id="horarios" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold"> Horarios de Emisión</h2>
+            <div class="table-responsive horarios-table">
+                <table class="table table-hover mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Película</th>
+                            <th>Sala</th>
+                            <th>Horarios Disponibles</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="fw-bold">Aventura Espacial</td>
+                            <td>Sala 1</td>
+                            <td>
+                                <span class="horario-badge">2:00 PM</span>
+                                <span class="horario-badge">5:00 PM</span>
+                                <span class="horario-badge">8:00 PM</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">Comedia Familiar</td>
+                            <td>Sala 2</td>
+                            <td>
+                                <span class="horario-badge">1:00 PM</span>
+                                <span class="horario-badge">4:00 PM</span>
+                                <span class="horario-badge">7:00 PM</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">Terror Nocturno</td>
+                            <td>Sala 3</td>
+                            <td>
+                                <span class="horario-badge">6:00 PM</span>
+                                <span class="horario-badge">9:00 PM</span>
+                                <span class="horario-badge">11:00 PM</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">Drama Romántico</td>
+                            <td>Sala 4</td>
+                            <td>
+                                <span class="horario-badge">3:00 PM</span>
+                                <span class="horario-badge">6:00 PM</span>
+                                <span class="horario-badge">9:00 PM</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">Acción Extrema</td>
+                            <td>Sala 5</td>
+                            <td>
+                                <span class="horario-badge">2:30 PM</span>
+                                <span class="horario-badge">5:30 PM</span>
+                                <span class="horario-badge">8:30 PM</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Registro -->
+    <section id="registro" class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card shadow border-0">
+                        <div class="card-body p-5">
+                            <h2 class="text-center mb-4 fw-bold"> Registro de Usuario</h2>
+                            <form id="formRegistro">
+                                <div class="mb-3">
+                                    <label class="form-label">Nombre Completo *</label>
+                                    <input type="text" class="form-control" id="nombre" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Correo Electrónico *</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Teléfono *</label>
+                                    <input type="tel" class="form-control" id="telefono" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Contraseña *</label>
+                                    <input type="password" class="form-control" id="password" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 btn-lg">Crear Cuenta</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Reserva y Pago -->
+    <section id="reserva" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold"> Reservar y Pagar Boletos</h2>
+            
+            <!-- Paso 1: Selección de película y horario -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-8">
+                    <div class="card shadow border-0">
+                        <div class="card-body p-4">
+                            <h4 class="mb-4">Paso 1: Selecciona Película y Horario</h4>
+                            <form id="formReserva">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Película *</label>
+                                        <select class="form-select" id="peliculaSelect" required>
+                                            <option value="">Selecciona una película...</option>
+                                            <option value="Aventura Espacial">Aventura Espacial - Sala 1</option>
+                                            <option value="Comedia Familiar">Comedia Familiar - Sala 2</option>
+                                            <option value="Terror Nocturno">Terror Nocturno - Sala 3</option>
+                                            <option value="Drama Romántico">Drama Romántico - Sala 4</option>
+                                            <option value="Acción Extrema">Acción Extrema - Sala 5</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label class="form-label">Horario *</label>
+                                        <select class="form-select" id="horarioSelect" required>
+                                            <option value="">Selecciona un horario...</option>
+                                            <option value="2:00 PM">2:00 PM</option>
+                                            <option value="5:00 PM">5:00 PM</option>
+                                            <option value="8:00 PM">8:00 PM</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-success btn-lg w-100" onclick="mostrarAsientos()">
+                                    Continuar a Selección de Asientos →
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paso 2: Selección de asientos -->
+            <div id="seccionAsientos" style="display:none;">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="card shadow border-0">
+                            <div class="card-body p-4">
+                                <h4 class="mb-4 text-center">Paso 2: Selecciona tus Asientos</h4>
+                                
+                                <div class="screen">PANTALLA</div>
+                                
+                                <div class="seats-container" id="asientosGrid"></div>
+                                
+                                <div class="legend">
+                                    <div class="legend-item">
+                                        <div class="legend-box" style="background-color: #198754;"></div>
+                                        <span>Disponible</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-box" style="background-color: #ffc107;"></div>
+                                        <span>Seleccionado</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-box" style="background-color: #dc3545;"></div>
+                                        <span>Ocupado</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="text-center mt-4">
+                                    <h5>Asientos seleccionados: <span id="totalAsientos" class="text-primary">0</span></h5>
+                                    <h5>Total a pagar: <span id="totalPrecio" class="text-success">0</span></h5>
+                                    <button class="btn btn-primary btn-lg mt-3" onclick="mostrarPago()">
+                                        Continuar a Pago →
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paso 3: Pago -->
+            <div id="seccionPago" style="display:none;">
+                <div class="row justify-content-center mt-4">
+                    <div class="col-md-6">
+                        <div class="card shadow border-0">
+                            <div class="card-body p-4">
+                                <h4 class="mb-4 text-center">Paso 3: Información de Pago</h4>
+                                
+                                <div class="alert alert-info">
+                                    <h6>Resumen de Compra:</h6>
+                                    <p class="mb-1"><strong>Película:</strong> <span id="resumenPelicula">-</span></p>
+                                    <p class="mb-1"><strong>Horario:</strong> <span id="resumenHorario">-</span></p>
+                                    <p class="mb-1"><strong>Asientos:</strong> <span id="resumenAsientos">-</span></p>
+                                    <p class="mb-0"><strong class="fs-5">Total:</strong> <span id="resumenTotal" class="fs-5 text-success">0</span></p>
+                                </div>
+                                
+                                <form id="formPago">
+                                    <div class="mb-3">
+                                        <label class="form-label">Método de Pago *</label>
+                                        <select class="form-select" required>
+                                            <option value="">Seleccionar método...</option>
+                                            <option value="tarjeta"> Tarjeta de Crédito/Débito</option>
+                                            <option value="efectivo"> Efectivo en Taquilla</option>
+                                            <option value="pse"> PSE</option>
+                                            <option value="nequi"> Nequi/Daviplata</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Correo para Confirmación *</label>
+                                        <input type="email" class="form-control" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-success btn-lg w-100">
+                                        Confirmar Compra
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PIE DE PAGINA-->
+    <footer>
+        <div class="container text-center">
+            <h5 class="mb-3">Cinema Yarumal</h5>
+            <p class="mb-2"> Centro de Yarumal, Antioquia</p>
+            <p class="mb-2"> Teléfono: (604) 850-1234</p>
+            <p class="mb-2"> Email: info@cinemayarumal.com</p>
+            <p class="mt-4 mb-0">© 2025 Cinema Yarumal - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scri.js"></script>
+</body>
+</html>
+
